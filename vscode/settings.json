@@ -1,0 +1,27 @@
+{
+    "editor.fontSize": 16,
+    "editor.fontWeight": "400",
+    "editor.lineHeight": 21,
+    "editor.fontFamily": "'Inconsolata','Meslo LG M DZ'",
+    "window.zoomLevel": 0,
+    
+    "terminal.integrated.fontSize": 14,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorCustomizations": {
+      "activityBarBadge.background": "#5C6BC0",
+      "list.activeSelectionForeground": "#5C6BC0",
+      "list.inactiveSelectionForeground": "#5C6BC0",
+      "list.highlightForeground": "#5C6BC0",
+      "scrollbarSlider.activeBackground": "#5C6BC050",
+      "editorSuggestWidget.highlightForeground": "#5C6BC0",
+      "textLink.foreground": "#5C6BC0",
+      "progressBar.background": "#5C6BC0",
+      "pickerGroup.foreground": "#5C6BC0"
+    },
+    "workbench.colorTheme": "Github",
+    "materialTheme.cache.workbench.settings": {
+      "accent": "Indigo",
+      "themeColours": "Palenight",
+      "accentPrevious": "Acid Lime"
+    }
+  }
