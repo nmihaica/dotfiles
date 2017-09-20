@@ -1,0 +1,35 @@
+#include "./xresources/base16-monokai-256.Xresources"
+
+!URxvt.font: xft:Iosevka:pixelsize=13
+URxvt.font: xft:Iosevka:size=13
+!URxvt.font: xft:Hack:size=14
+URxvt.cursorBlink: true
+URxvt.cursorColor: #1cff45
+
+URxvt.scrollBar: false
+URxvt.internalBorder:  6
+!URxvt.internalBorder:  12
+
+!URxvt.borderLess: true
+URxvt.lineSpace: 0
+
+
+!transparency
+!URxvt*depth: 32
+!URxvt*background: rgba:0000/0000/0100/c800
+
+
+!comma delimeter extensions, fullscren dependent on wmctrl
+URxvt.perl-ext-common: fullscreen,resize-font
+URxvt.keysym.F11: perl:fullscreen:switch
+
+URxvt.resize-font.smaller: C-Down
+URxvt.resize-font.bigger: C-Up
+
+Xft.dpi: 96
+Xft.antialias: true      
+Xft.hinting: true
+Xft.rgba: rgb 
+Xft.autohint: false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
