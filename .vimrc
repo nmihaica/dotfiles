@@ -73,6 +73,11 @@ colorscheme onedark
 
 map <C-g> :Goyo<CR>
 
+"" disablesopaquebackground                                                
+hi Normal ctermbg=none
+hi NonText ctermbg=none
+
+
 
 let g:goyo_linenr = 1
 function! s:goyo_enter()
